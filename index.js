@@ -1,3 +1,5 @@
+// Arithmetic operators
+
 let x= 10;
 let y= 5;
 
@@ -10,3 +12,38 @@ console.log(x ** y);
 
 let result = x + y;
 console.log(result);
+
+// Increment operator pre-increment
+let a= 10;
+console.log(a);
+console.log(++a);
+console.log(a);
+console.log(++a);
+console.log(a);
+console.log(++a);
+console.log(a);
+
+// Increment operator post-increment
+let b= 10;
+console.log(b);
+console.log(b++);
+console.log(b);
+console.log(b++);
+console.log(b);
+console.log(b++);
+console.log(b);
+
+//Difference between Pre-Increment and Post-Increment Operator
+let m=10;
+let n= m;
+
+console.log("pre - Increment");
+n= ++m
+console.log(m);
+console.log(n);
+
+console.log("post - Increment");
+n= m++
+console.log(m);
+console.log(n);
+
