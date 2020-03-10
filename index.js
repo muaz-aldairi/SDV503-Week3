@@ -47,3 +47,39 @@ n= m++
 console.log(m);
 console.log(n);
 
+// decrement operator pre- decrement
+let c= 10;
+console.log(c);
+console.log(--c);
+console.log(c);
+console.log(--c);
+console.log(c);
+console.log(--c);
+console.log(c);
+
+// decrement operator post-decrement
+let d= 10;
+console.log(d);
+console.log(d--);
+console.log(d);
+console.log(d--);
+console.log(d);
+console.log(d--);
+console.log(d);
+
+//Difference between Pre-decrement and Post-decrement Operator
+let k=10;
+let f= k;
+
+console.log("pre - decrement");
+f= --k
+console.log(k);
+console.log(f);
+
+console.log("post - decrement");
+f= k--
+console.log(k);
+console.log(f);
+
+
+
