@@ -93,3 +93,48 @@ console.log(g);
 console.log(10 * g--);
 console.log(g);
 
+//String Concatenation
+let a1 = " Hello";
+let b1 = " world";
+let c1= a1+b1;
+let d1= " Hello" + "world";
+console.log(a1+b1);
+console.log(c1);
+console.log(d1);
+console.log( `${a1} ${b1}`);
+
+//Number as a String 
+//(+)
+
+console.log(10 + 10 +"5");
+
+//(-,*,/)
+console.log( 10 -"5");
+console.log( 10 *"5");
+console.log( 10 /"5");
+
+// converting strings to numbers
+//the unary plus works first and then the binary plus
+let girls="10";
+let boys="5";
+console.log(girls+boys);
+console.log(+girls + +boys);
+
+// converting boolean to numbers
+console.log(+true);
+console.log(+false);
+console.log(+"");
+
+// comma operator
+let com = (2+3,3+4);
+console.log(com);
+console.log(2+3,4+3);
+
+
+
+
+
+
+
+
+
