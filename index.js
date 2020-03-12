@@ -130,7 +130,22 @@ let com = (2+3,3+4);
 console.log(com);
 console.log(2+3,4+3);
 
+// Assignment Operator
 
+let l= 10;
+console.log(l);
+l+= 10;
+console.log(l);
+l-= 10;
+console.log(l);
+l*= 10;
+console.log(l);
+l/= 10;
+console.log(l);
+l **= 10;
+console.log(l);
+ l %= 10;
+console.log(l);
 
 
 
