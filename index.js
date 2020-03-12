@@ -147,6 +147,61 @@ console.log(l);
  l %= 10;
 console.log(l);
 
+// comparison operater
+
+console.log(10==5);
+console.log(10!=5);
+console.log(10<5);
+console.log(10>5);
+console.log(10<=5);
+console.log(10>=5);
+
+// string and Number Comparison
+// when comparison, string is converted to number
+console.log(10=="5");
+console.log(10=="10");
+console.log(10!="5");
+console.log(10!="10");
+console.log(10<"5");
+console.log(10<"10");
+console.log(10>"5");
+console.log(10>"10");
+console.log(10<="5");
+console.log(10<="10");
+console.log(10>="5");
+console.log(10>="10");
+
+//Boolean and Number Comparison
+// true=1 , false=0
+console.log(true==1);
+console.log(true=="1");
+console.log(true== 0);
+console.log(false==1);
+console.log(false==0);
+console.log(false=="0");
+
+console.log(true!=1);
+console.log(true!="1");
+console.log(true!= 0);
+console.log(false!=1);
+console.log(false!=0);
+console.log(false!="0");
+
+// string comparison
+
+console.log("z" > "a");
+console.log("raise" > "race");
+console.log("break" > "brake");
+console.log("lose" < "loose");
+
+//Case matters in String comparison
+console.log("A"=="a");
+console.log("a">"A");
+console.log("book">"Book");
+
+
+
+
 
 
 
