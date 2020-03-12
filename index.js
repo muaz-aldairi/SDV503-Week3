@@ -172,7 +172,7 @@ console.log(10>="5");
 console.log(10>="10");
 
 //Boolean and Number Comparison
-// true=1 , false=0
+// true=1 , false=0  ""=0
 console.log(true==1);
 console.log(true=="1");
 console.log(true== 0);
@@ -199,6 +199,42 @@ console.log("A"=="a");
 console.log("a">"A");
 console.log("book">"Book");
 
+//Strict Equality and non-equality
+
+console.log( 1 == "1");
+console.log( 1==="1");
+
+console.log( 1 == true);
+console.log( 1===true);
+
+console.log( 1 != "1");
+console.log( 1 !=="1");
+
+//null vs undefined
+
+
+// null in the equality is not converted to number
+// null in the comparison is converted to number
+console.log(null==0);
+console.log(null===0);
+console.log(null>0);
+console.log(null<0);
+console.log(null>=0);
+
+// undefined only equals null
+console.log(null==undefined);
+console.log(null===undefined);
+
+console.log(undefined==0);
+console.log(undefined===0);
+console.log(undefined>0);
+console.log(undefined>=0);
+
+// null equals 0 in math operations
+//undefined does not have a value to take part in a math operation
+console.log(null+1);
+console.log(undefined>0);
+console.log(undefined+1);
 
 
 
