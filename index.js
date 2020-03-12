@@ -81,5 +81,15 @@ f= k--
 console.log(k);
 console.log(f);
 
+//Increment/ Decrement Operator inside an expression
 
+let e=1;
+console.log(e);
+console.log(10 * ++e);
+console.log(e);
+
+let g=1;
+console.log(g);
+console.log(10 * g--);
+console.log(g);
 
