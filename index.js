@@ -237,6 +237,129 @@ console.log(undefined>0);
 console.log(undefined+1);
 
 
+// Logical Operator
+// OR || 
+
+console.log(true||true);
+console.log(true||false);
+console.log(false||true);
+console.log(false||false);
+
+console.log(1||1);
+console.log(1||0);
+console.log(0||1);
+console.log(0||0);
+
+// if all true , returns the first true
+// if all false, returns the last false
+// if mixed , returns the first true 
+
+console.log(true||1);
+console.log(1||true);
+console.log(false||0);
+console.log(0||false);
+console.log(true||0);
+console.log(false||1);
+console.log(1||false);
+console.log(0||true);
+
+console.log(1||false||0);
+console.log(0||false||true);
+console.log(false||1||true);
+
+// 0, null, undefined, empty string and false are false values. 
+//Positive integer, Negative integer, a string and true are true values
+console.log(1||null);
+console.log(0||null);
+console.log("muaz"||null);
+console.log("Muaz"||"david");
+console.log(undefined||null);
+console.log(0||undefined);
+console.log(null||undefined||0);
+console.log(1||3);
+console.log(0||-5);
+console.log(5||null);
+
+// example:
+
+let s1;
+true || (s1=10);
+console.log(s1);
+
+null || ( s1=10);
+console.log(s1);
+
+
+
+// Logical Operator
+// AND &&
+
+console.log(true&&true);
+console.log(true&&false);
+console.log(false&&true);
+console.log(false&&false);
+
+console.log(1&&1);
+console.log(1&&0);
+console.log(0&&1);
+console.log(0&&0);
+
+
+// if all true , returns the last true
+// if all false, returns the first false
+// if mixed , returns the first false 
+
+console.log(true&&1);
+console.log(1&&true);
+console.log(false&&0);
+console.log(0&&false);
+console.log(true&&0);
+console.log(false&&1);
+console.log(1&&false);
+console.log(0&&true);
+
+console.log(1&&false&&0);
+console.log(0&&false&&true);
+console.log(false&&1&&true);
+
+
+//0, null, undefined, empty string and false are false values.
+// Negative integer, positive integer, a string and true are true values
+
+console.log(1&&null);
+console.log(0&&null);
+console.log("muaz"&&null);
+console.log("Muaz"&&"david");
+console.log(undefined&&null);
+console.log(0&&undefined);
+console.log(null&&undefined&&0);
+console.log(1&&3);
+console.log(0&&-5);
+console.log(5&&null);
+
+// example:
+
+let s2;
+true && (s2=10);
+console.log(s2);
+
+null && ( s2=10);
+console.log(s2);
+
+// Logical Operator
+// NOT !
+
+console.log(!true);
+console.log(!false);
+console.log(!1);
+console.log(!0);
+console.log(!"Muaz");
+console.log(!-5);
+console.log(! null);
+console.log(! undefined);
+
+// Double !!
+// !! true = true 
 
 
 
