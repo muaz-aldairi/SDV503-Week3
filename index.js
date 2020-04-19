@@ -71,15 +71,17 @@ console.log(d);
 let k=10;
 let f= k;
 
+console.log("post - decrement");
+f= k--
+console.log(k);
+console.log(f);
+
 console.log("pre - decrement");
 f= --k
 console.log(k);
 console.log(f);
 
-console.log("post - decrement");
-f= k--
-console.log(k);
-console.log(f);
+
 
 //Increment/ Decrement Operator inside an expression
 
@@ -97,7 +99,7 @@ console.log(g);
 let a1 = " Hello";
 let b1 = " world";
 let c1= a1+b1;
-let d1= " Hello" + "world";
+let d1= " Hello " + "world";
 console.log(a1+b1);
 console.log(c1);
 console.log(d1);
@@ -119,7 +121,7 @@ let girls="10";
 let boys="5";
 console.log(girls+boys);
 console.log(+girls + +boys);
-
+console.log(+"10" + +"5");
 // converting boolean to numbers
 console.log(+true);
 console.log(+false);
@@ -158,7 +160,7 @@ console.log(10>=5);
 
 // string and Number Comparison
 // when comparison, string is converted to number
-console.log(10=="5");
+console.log(10=="10");
 console.log(10=="10");
 console.log(10!="5");
 console.log(10!="10");
@@ -213,8 +215,8 @@ console.log( 1 !=="1");
 //null vs undefined
 
 
-// null in the equality is not converted to number
-// null in the comparison is converted to number
+// null in the equality is not converted to number which is 0
+// null in the comparison is converted to number which is 0
 console.log(null==0);
 console.log(null===0);
 console.log(null>0);
@@ -225,6 +227,8 @@ console.log(null>=0);
 console.log(null==undefined);
 console.log(null===undefined);
 
+//undefined does not have a value to take part in the equality
+//undefined does not have a value to take part in the comparison
 console.log(undefined==0);
 console.log(undefined===0);
 console.log(undefined>0);
@@ -232,13 +236,16 @@ console.log(undefined>=0);
 
 // null equals 0 in math operations
 //undefined does not have a value to take part in a math operation
+console.log(null-1);
 console.log(null+1);
-console.log(undefined>0);
+console.log(null*1);
+console.log(undefined+1);
+console.log(undefined-1);
 console.log(undefined+1);
 
 
 // Logical Operator
-// OR || 
+// OR || ( true seeker)
 
 console.log(true||true);
 console.log(true||false);
@@ -292,7 +299,7 @@ console.log(s1);
 
 
 // Logical Operator
-// AND &&
+// AND &&  (false seeker)
 
 console.log(true&&true);
 console.log(true&&false);
@@ -343,7 +350,7 @@ let s2;
 true && (s2=10);
 console.log(s2);
 
-null && ( s2=10);
+null && ( s2=20);
 console.log(s2);
 
 // Logical Operator
@@ -360,10 +367,5 @@ console.log(! undefined);
 
 // Double !!
 // !! true = true 
-
-
-
-
-
 
 
